@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-#ddddddasaadsassadddaff
-sudo netstat -tulnpo | grep LISTEN
+# sdddddddddddddddd
+
+sudo ss -tulnpo | grep LISTEN
