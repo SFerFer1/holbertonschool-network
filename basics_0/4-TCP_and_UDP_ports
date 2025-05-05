@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Script to display listening TCP and UDP ports with PID and program name
+# m
 
-# Use ss (socket statistics) to list listening ports with program information
+# n
 sudo ss -tulnpo | grep LISTEN
