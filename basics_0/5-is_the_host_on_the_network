@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 #ddddddasaadsassadddaff
 
 if [ -z "$1" ]; then
@@ -6,4 +6,5 @@ if [ -z "$1" ]; then
     exit 1
 fi
 
+# dewdddddddddddded
 ping -c 5 "$1"
