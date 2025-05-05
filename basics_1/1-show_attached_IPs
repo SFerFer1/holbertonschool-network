@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# call a day
+ifconfig | grep 'inet ' | awk '{ print $2 }'
