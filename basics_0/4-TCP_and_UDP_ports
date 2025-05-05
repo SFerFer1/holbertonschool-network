@@ -2,4 +2,4 @@
 # m
 
 # n
-sudo ss -tulnpo | grep LISTEN
+sudo netstat -tulnpo | grep LISTEN
