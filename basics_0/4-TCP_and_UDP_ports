@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 #ddddddasaadsassadddaff
-lsof -nP 
+ss -tulnp | grep LISTEN
+
