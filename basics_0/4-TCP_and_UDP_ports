@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 #ddddddasaadsassadddaff
-ss -tulnp | grep LISTEN
+ss -tulnp | awk '$1 ~ /^(tcp|udp)/ && $6 == "LISTEN" {print}'
+
 
