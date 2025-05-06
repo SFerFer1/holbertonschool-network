@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# mnncinnkvckkguuuuupgfduh
-sudo netstat -tulnpo | grep LISTEN
+# Listen  list
+
+ss -ltpn | grep LISTEN
