@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Listen  list
 
-netstat -tuln
+netstat -tul
