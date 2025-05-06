@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Listen  list
 
-sudo ss -tulnp | grep LISTEN
+ss -tulnp | grep LISTEN
