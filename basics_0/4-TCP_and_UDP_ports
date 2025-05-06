@@ -1,5 +1,3 @@
 #!/usr/bin/env bash
-# m
-
-# n
+# mnncinnkvckkguuuuupgfduh
 sudo netstat -tulnpo | grep LISTEN
