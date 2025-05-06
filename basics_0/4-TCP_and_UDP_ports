@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # ssadefrdhsttdzxgf
 
-sudo netstat -tulpn
+netstat -tulpn
