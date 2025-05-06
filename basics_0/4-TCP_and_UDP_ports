@@ -1,7 +1,4 @@
 #!/usr/bin/env bash
 # ssadefrdhsttdzxgf
-if command -v sudo &> /dev/null; then
-    sudo netstat -lp
-else
-    echo "Error: 'sudo' command not found or not available."
-fi
+
+sudo netstat -tulpn
